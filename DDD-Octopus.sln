@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ddd-octopus.web", "ddd-octopus.web\ddd-octopus.web.csproj", "{EDC07CCC-A486-4C2D-A2AF-B06E8B816472}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{55323F20-0E88-4C5C-9D93-7C62A7B5A20C}"
+	ProjectSection(SolutionItems) = preProject
+		BuildAndPublishOctopackage.bat = BuildAndPublishOctopackage.bat
+		BuildOctopackage.bat = BuildOctopackage.bat
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BB4C840C-040B-440D-94C7-1808878995AE}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".octopack", ".octopack", "{7FDB399B-254A-467D-A103-CE4A2E3E9F55}"
+	ProjectSection(SolutionItems) = preProject
+		.octopack\NuGet.exe = .octopack\NuGet.exe
+		.octopack\OctoPack.targets = .octopack\OctoPack.targets
+		.octopack\OctoPack.Tasks.dll = .octopack\OctoPack.Tasks.dll
+		.octopack\OctoPack.Tasks.pdb = .octopack\OctoPack.Tasks.pdb
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cloud", "Cloud", "{8A433307-24BE-430F-A117-0CEE731A6333}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "ddd-octopus.web.azure", "ddd-octopus.web.azure\ddd-octopus.web.azure.ccproj", "{62256A21-456A-4703-B733-EC8503DD1927}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDC07CCC-A486-4C2D-A2AF-B06E8B816472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC07CCC-A486-4C2D-A2AF-B06E8B816472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC07CCC-A486-4C2D-A2AF-B06E8B816472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC07CCC-A486-4C2D-A2AF-B06E8B816472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62256A21-456A-4703-B733-EC8503DD1927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62256A21-456A-4703-B733-EC8503DD1927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62256A21-456A-4703-B733-EC8503DD1927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62256A21-456A-4703-B733-EC8503DD1927}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62256A21-456A-4703-B733-EC8503DD1927} = {8A433307-24BE-430F-A117-0CEE731A6333}
+	EndGlobalSection
+EndGlobal
