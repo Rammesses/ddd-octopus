@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>ddd_octopus.web.azure</id>
+    <version>1.0.131008.230429</version>
+    <title>ddd_octopus.web.azure</title>
+    <authors>joel</authors>
+    <summary></summary>
+    <description>ddd_octopus.web.azure.NuGetPackage</description>
+    <language>en-us</language>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+        </dependencies>
+  </metadata>
+  <files>
+	  <file src="ddd-octopus.web.Azure.cspkg" target="" />
+	  <file src="ServiceConfiguration.Cloud.cscfg" target="" />
+  </files>
+</package>
