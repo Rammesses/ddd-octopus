@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ddd-octopus.web", "ddd-octopus.web\ddd-octopus.web.csproj", "{EDC07CCC-A486-4C2D-A2AF-B06E8B816472}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{55323F20-0E88-4C5C-9D93-7C62A7B5A20C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build Scripts", "Build Scripts", "{55323F20-0E88-4C5C-9D93-7C62A7B5A20C}"
 	ProjectSection(SolutionItems) = preProject
 		BuildAndPublishAzurePackage.bat = BuildAndPublishAzurePackage.bat
 		BuildAndPublishOctopackage.bat = BuildAndPublishOctopackage.bat
@@ -33,6 +33,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ddd-octopus.web.azure.NuGetPackage", "ddd-octopus.web.azure.NuGetPackage\ddd-octopus.web.azure.NuGetPackage.csproj", "{B9D3C817-5424-4329-9774-5CEFA8D6BC36}"
 	ProjectSection(ProjectDependencies) = postProject
 		{62256A21-456A-4703-B733-EC8503DD1927} = {62256A21-456A-4703-B733-EC8503DD1927}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{67912C89-32C2-4053-9867-43192433E4E2}"
+	ProjectSection(SolutionItems) = preProject
+		documentation\Getting Started with Octopus Deployment.pptx = documentation\Getting Started with Octopus Deployment.pptx
 	EndProjectSection
 EndProject
 Global
