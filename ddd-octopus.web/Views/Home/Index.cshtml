@@ -1,10 +1,13 @@
-﻿@{
-    ViewBag.Title = "DDD Octopus Sample";
+﻿@model ddd_octopus.web.Models.HomeViewModel
+
+@{
+    ViewBag.Title = "DDD Octopus Sample (ChesterDevs Edition)";
 }
 
-<h2>DDD Octopus Sample</h2>
+<h2>DDD Octopus Sample (ChesterDevs Edition)</h2>
 
-<p>Running on @Environment.MachineName</p>
+<p>Running on @Model.MachineName - @Model.MyCustomSetting</p>
+<p>Release @Model.OctopusReleaseNumber - DeploymentID @Model.OctopusDeploymentId</p>
 
 <h4>Links</h4>
 

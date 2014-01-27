@@ -6,6 +6,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{55323F20-0E88-4C5C-9D93-7C62A7B5A20C}"
 	ProjectSection(SolutionItems) = preProject
 		BuildAndPublishAzurePackage.bat = BuildAndPublishAzurePackage.bat
+		BuildAndPublishBothPackages.bat = BuildAndPublishBothPackages.bat
 		BuildAndPublishOctopackage.bat = BuildAndPublishOctopackage.bat
 		BuildAzurePackage.bat = BuildAzurePackage.bat
 		BuildOctopackage.bat = BuildOctopackage.bat

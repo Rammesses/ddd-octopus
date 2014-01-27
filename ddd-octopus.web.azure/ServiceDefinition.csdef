@@ -14,5 +14,10 @@
     <Imports>
       <Import moduleName="Diagnostics" />
     </Imports>
+    <ConfigurationSettings>
+      <Setting name="MyCustomSetting" />
+      <Setting name="Octopus.Release.Number" />
+      <Setting name="Octopus.Deployment.Id" />
+    </ConfigurationSettings>
   </WebRole>
 </ServiceDefinition>

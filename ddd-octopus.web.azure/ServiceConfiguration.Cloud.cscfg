@@ -4,6 +4,9 @@
     <Instances count="1" />
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="MyCustomSetting" value="Unset (Azure)" />
+      <Setting name="Octopus.Release.Number" value="Unset (Azure)" />
+      <Setting name="Octopus.Deployment.Id" value="Unset (Azure)" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>
